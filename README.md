@@ -1,13 +1,7 @@
-# medical_imaging
+# Medical Image Processing Project
 
-In this project, the student is asked to load, visualize and perform a coregistration of DICOM images. The following objectives are proposed:
-1) DICOM loading and visualization
-d) The animation with rotating Maximum Intensity Projection is found in the results/MIP folder
+In this project, the student is asked to load, visualize and perform a coregistration of DICOM images. All code save the utils.py is found in the assignment.ipynb file. The following objectives are proposed:
 
-2) 3D Rigid Coregistration
-a) Coregister the given images using either landmarks (that you should define) or a function
-similarity measure (that you should implement). Implement the image coregistration yourself (i.e. without libraries such as PyElastix).
-– Reference image: icbm avg 152 t1 tal nlin symmetric VI, of a T1 RM phantom in
-a normalized space.
-– Input image: RM Brain 3D-SPGR, of an anonimized patient.
-b) Visualize the Thalamus region on the input image space.
+1) DICOM loading and visualization. The data assigned is found in the HCC_002 folder. The animation with rotating Maximum Intensity Projection is found in the results/MIP folder
+
+2) 3D Rigid Coregistration. The data is found in the Project folder and contals an atlas file 'AAL3_1mm', reference image, 'icbm avg 152 t1 tal nlin symmetric VI' and input image, 'RM Brain 3D-SPGR'. Coregistration is performed and Thalamus region is viewed.
