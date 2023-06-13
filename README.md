@@ -1,6 +1,6 @@
 # Medical Image Processing Project
 
-In this project, the student is asked to load, visualize and perform a coregistration of DICOM images. All code save the utils.py is found in the *assignment.ipynb* file. The following objectives are proposed:
+In this project, the student is asked to load, visualize and perform a coregistration of DICOM images. All code save the utils.py is found in the **assignment.ipynb** file. The following objectives are proposed:
 
 1) DICOM loading and visualization. The data assigned is found in the HCC_002 folder. The animation with rotating Maximum Intensity Projection is found in the results/MIP folder
 
